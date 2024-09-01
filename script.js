@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Generate MOU document HTML with Privacy & Policy
         const mouContent = `
             <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; color: #333; border: 1px solid #ddd;">
-                <img src="logo.jpeg" alt="Company Logo" style="width: 100px; float: left; margin-right: 20px;">
+                <img src="logo.jpeg" alt="Company Logo" style="width: 100px; float: right; margin-left: 20px; margin-top: 20px;">
                 <h1 style="text-align: center; color: #0056b3;">Memorandum of Understanding (MOU)</h1>
                 <p><strong>Buyer Name:</strong> ${buyerName}</p>
                 <p><strong>Buyer ID:</strong> ${buyerId}</p>
